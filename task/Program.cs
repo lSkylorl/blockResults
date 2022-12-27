@@ -16,11 +16,11 @@ void arrFiltering(string[] enterArr, string[] exitArr)
 }
 
 PrintArray(exitArr);
-void PrintArray(string[] exitArr)
+void PrintArray(string[] enterArr)
 {
-    for (int i = 0; i < exitArr.Length; i++)
+    for (int i = 0; i < enterArr.Length; i++)
     {
-        Console.Write($"{exitArr[i]} ");
+        Console.Write($"{enterArr[i]} ");
     }
     Console.WriteLine();
 }
